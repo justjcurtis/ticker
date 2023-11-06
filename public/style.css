@@ -1,0 +1,42 @@
+.table-wrapper {
+    width: 100%;
+    min-width: 500px;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    margin: 25px 0;
+    font-family: arial;
+    font-size: 1em;
+}
+
+.table-header {
+    background-color: #1e8568;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.table-wrapper th,
+.table-wrapper td {
+    padding: 10px 15px;
+}
+.table-wrapper tbody tr {
+    border-bottom: 2px solid #ccc;
+}
+
+.table-wrapper tbody tr:nth-of-type(odd) {
+    background-color: #f4f4f4;
+}
+
+.table-company {
+    transition: all 0.3s;
+}
+
+.table-company-up{
+    background-color: #90ee90;
+    text-align: left;
+}
+
+.table-company-down{
+    background-color: #ffcccb;
+    text-align: left;
+}

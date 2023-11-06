@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "csv-loader": "^3.0.5",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
